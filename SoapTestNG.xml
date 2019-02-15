@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestAll" verbose="1" parallel="test" thread-count="1">
+    
+    <test name="Sample1">
+        <parameter name="XMLFilePath" value="C:\\Selenium\\WorkSpace\\Java_Soap_Rest_Services_with_HttpClient\\request1.xml"/>
+		<classes>
+			<class name="runner.SoapServicewithhttpclient" />
+		</classes>
+	</test>
+	
+    <test name="Sample2">
+        <parameter name="XMLFilePath" value="C:\\Selenium\\WorkSpace\\Java_Soap_Rest_Services_with_HttpClient\\request2.xml"/>
+		<classes>
+			<class name="runner.SoapServicewithhttpclient" />
+		</classes>
+	</test>
+	
+</suite>

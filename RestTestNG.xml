@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestAll" verbose="1" parallel="test" thread-count="2">
+    
+    <test name="Sample1">
+		<classes>
+			<class name="runner.RestServicewithhttpclient" />
+		</classes>
+	</test>
+	
+    <test name="Sample2">
+		<classes>
+			<class name="runner.RestServicewithhttpclient" />
+		</classes>
+	</test>
+</suite>
